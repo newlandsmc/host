@@ -9,3 +9,7 @@ Note: This should eventually become an Ansible playbook that automates the creat
 - OpenJDK from https://adoptium.net/
 - Git
 - tar
+
+## Users created:
+
+- minecraft /var/minecraft /bin/bash minecraft
