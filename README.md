@@ -12,6 +12,7 @@ Note: This should eventually become an Ansible playbook that automates the creat
 - tar
 - nginx
 - php
+- snapd
 
 ## Users created:
 
