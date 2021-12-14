@@ -7,10 +7,10 @@ Note: This should eventually become an Ansible playbook that automates the creat
 ## Packages Installed:
 
 - OpenJDK from https://adoptium.net/
+- mcrcon from https://github.com/Tiiffi/mcrcon
 - Git
 - tar
 - nginx
-- mcrcon from https://github.com/Tiiffi/mcrcon
 - php
 
 ## Users created:
