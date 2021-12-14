@@ -9,6 +9,8 @@ Note: This should eventually become an Ansible playbook that automates the creat
 - OpenJDK from https://adoptium.net/
 - Git
 - tar
+- nginx
+- mcrcon
 
 ## Users created:
 
