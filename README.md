@@ -8,6 +8,7 @@ Note: This should eventually become an Ansible playbook that automates the creat
 
 - OpenJDK from https://adoptium.net/
 - mcrcon from https://github.com/Tiiffi/mcrcon
+- letsencrypt from https://certbot.eff.org/instructions?ws=nginx&os=centosrhel8
 - Git
 - tar
 - nginx
