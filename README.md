@@ -14,3 +14,10 @@ Note: This should eventually become an Ansible playbook that automates the creat
 
 - minecraft /var/minecraft /bin/bash minecraft
 - \<all admins\>
+
+
+## Firewall:
+
+- 25565 tcp/udp
+- 80,443 tcp
+- 22 tcp
