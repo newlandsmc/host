@@ -13,3 +13,4 @@ Note: This should eventually become an Ansible playbook that automates the creat
 ## Users created:
 
 - minecraft /var/minecraft /bin/bash minecraft
+- \<all admins\>
