@@ -23,6 +23,8 @@ Note: This should eventually become an Ansible playbook that automates the creat
 
 ## Firewall:
 
+Note: Hetzner firewall appears to break downloading .jars on startup. Using firewalld for now. Need to investigate further.
+
 - 25565 tcp/udp
 - 80,443 tcp
 - 22 tcp
