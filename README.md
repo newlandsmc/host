@@ -10,7 +10,7 @@ Note: This should eventually become an Ansible playbook that automates the creat
 - Git
 - tar
 - nginx
-- mcrcon
+- mcrcon from https://github.com/Tiiffi/mcrcon
 
 ## Users created:
 
