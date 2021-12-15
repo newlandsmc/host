@@ -10,6 +10,8 @@ User=minecraft
 Group=minecraft
 KillMode=none
 SuccessExitStatus=0 1
+Restart=on-abnormal
+RestartSec=120
 
 ProtectHome=true
 ProtectSystem=full
