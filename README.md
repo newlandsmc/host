@@ -21,10 +21,9 @@ Note: This should eventually become an Ansible playbook that automates the creat
 - \<all admins\>
 
 
-## Firewall:
-
-Note: Hetzner firewall appears to break downloading .jars on startup. Using firewalld for now. Need to investigate further.
+## External Firewall:
 
 - 25565 tcp/udp
 - 80,443 tcp
 - 22 tcp
+- 32768-65535 tcp ack|fin
