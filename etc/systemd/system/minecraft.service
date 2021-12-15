@@ -11,7 +11,7 @@ Group=minecraft
 KillMode=none
 SuccessExitStatus=0 1
 Restart=always
-RestartSec=120
+RestartSec=60
 
 ProtectHome=true
 ProtectSystem=full
