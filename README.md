@@ -26,6 +26,6 @@ Note: This should eventually become an Ansible playbook that automates the creat
 ## External Firewall:
 
 - 25565 tcp/udp
-- 80,443 tcp
+- 80,443,8192 tcp
 - 22 tcp
 - 32768-65535 tcp ack|fin
