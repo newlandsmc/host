@@ -11,7 +11,7 @@ Group=minecraft
 KillMode=none
 SuccessExitStatus=0 1
 Restart=always
-RestartSec=60
+RestartSec=30
 
 ProtectHome=true
 ProtectSystem=full
@@ -21,7 +21,7 @@ PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
 ReadWriteDirectories=/var/minecraft/server
 WorkingDirectory=/var/minecraft/server
-ExecStart=/usr/java/jdk-17.0.1+12/bin/java -Xms8G -Xmx8G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -jar paper.jar nogui
+ExecStart=/usr/java/jdk-17.0.1+12/bin/java -Xms16G -Xmx16G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -jar paper.jar nogui
 ExecStop=/var/minecraft/mcrcon/mcrcon -H localhost -P 25575 -p a8Haw76Oaj2e9WJ2b stop
 
 [Install]
