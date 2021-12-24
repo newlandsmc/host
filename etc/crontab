@@ -13,4 +13,4 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-50 6 * * mon root /var/minecraft/server/auto-restart.sh
+55 6 * * mon root /var/minecraft/server/auto-restart.sh
