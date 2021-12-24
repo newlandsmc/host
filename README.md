@@ -14,6 +14,8 @@ Note: This should eventually become an Ansible playbook that automates the creat
 - nginx
 - php
 - snapd
+- mariadb
+- mariadb-server
 
 ## Users created:
 
