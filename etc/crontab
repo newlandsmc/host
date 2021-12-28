@@ -14,3 +14,4 @@ MAILTO=root
 # *  *  *  *  * user-name  command to be executed
 
 55 6 * * mon root /var/minecraft/server/auto-restart.sh
+15 7 * * mon root /var/minecraft/server/lwc-cleanup.sh
