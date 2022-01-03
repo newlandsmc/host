@@ -8,7 +8,7 @@ Minecraft server located at /var/minecraft/server
 
 MCRCON located at /var/minecraft/mcrcon
 
-Java is located at /usr/java/<version>
+Java is located at /usr/java/\<version\>
 
 ## Packages Installed:
 
