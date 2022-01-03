@@ -1,8 +1,6 @@
-# Linux Host
+# SVMC-AX51NVME-01
 
-A collection of configuration files needed to build a new Linux host for the server.
-
-Note: This should eventually become an Ansible playbook that automates the creation of a new Linux host. For now, this will do just to document all the configs needed.
+Dedicated server. Hosts the production Minecraft server. NGINX is installed to serve the squaremap. Accessed via reverse proxy through webserver.
 
 ## Packages Installed:
 
