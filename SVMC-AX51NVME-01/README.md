@@ -1,12 +1,12 @@
 # SVMC-AX51NVME-01
 
-Dedicated server. Hosts the production Minecraft server. NGINX is installed to serve the squaremap. Accessed via reverse proxy through webserver.
+Dedicated server. Hosts the production Minecraft server.
+
+NGINX is installed to serve the squaremap (port 8080). Accessed via reverse proxy through webserver.
 
 Minecraft server located at /var/minecraft/server
 
 MCRCON located at /var/minecraft/mcrcon
-
-~~Website located at /var/minecraft/website~~
 
 ## Packages Installed:
 
@@ -35,6 +35,6 @@ MCRCON located at /var/minecraft/mcrcon
 ## External Firewall:
 
 - 25565 tcp/udp
-- 80,443,8192 tcp
+- 8080,8192 tcp
 - 22 tcp
 - 32768-65535 tcp ack|fin

@@ -22,7 +22,6 @@ Website located at /var/minecraft/website
 
 ## External Firewall:
 
-- 25565 tcp/udp
-- 80,443,8192 tcp
+- 80,443 tcp
 - 22 tcp
-- 32768-65535 tcp ack|fin
+- all outbound traffic

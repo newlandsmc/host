@@ -6,8 +6,6 @@ Minecraft server located at /var/minecraft/server
 
 MCRCON located at /var/minecraft/mcrcon
 
-~~Website located at /var/minecraft/website~~
-
 ## Packages Installed:
 
 - jdk-17.0.1+12 Temurin JRE from https://adoptium.net/
@@ -35,6 +33,6 @@ MCRCON located at /var/minecraft/mcrcon
 ## External Firewall:
 
 - 25565 tcp/udp
-- 80,443,8192 tcp
+- 8080,8192 tcp
 - 22 tcp
-- 32768-65535 tcp ack|fin
+- all outbound traffic
