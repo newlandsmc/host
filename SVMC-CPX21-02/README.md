@@ -1,6 +1,6 @@
-# SVMC-AX51NVME-01
+# SVMC-CPX21-02
 
-Dedicated server. Hosts the production Minecraft server. NGINX is installed to serve the squaremap. Accessed via reverse proxy through webserver.
+Cloud server. Hosts test server, identical to production Minecraft server. Accessed via IP.
 
 Minecraft server located at /var/minecraft/server
 
