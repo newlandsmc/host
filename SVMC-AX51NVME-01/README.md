@@ -21,6 +21,7 @@ MCRCON located at /var/minecraft/mcrcon
 - php
 - snapd
 - mariadb-server
+- openssl
 
 ## Users created:
 
