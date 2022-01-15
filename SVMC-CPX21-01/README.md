@@ -22,6 +22,8 @@ Website located at /var/minecraft/website
 
 ## External Firewall:
 
-- 80,443 tcp
-- 22 tcp
-- all outbound traffic
+Standard:
+- 443 tcp (priority 0)
+- 80 tcp (priority 1)
+- 22 tcp (priority 18)
+- deny all tcp (priority 19)
