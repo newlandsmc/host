@@ -47,4 +47,4 @@ Standard:
 - 8080 tcp (priority 1)
 - 8192 tcp (priority 2)
 - 22 tcp (priority 3)
-~~- 32768-65535 tcp ack|fin~~
+- ~~32768-65535 tcp ack|fin~~
