@@ -10,9 +10,9 @@ Ideally, this contains enough info to recreate any of our hosts should we ever n
 semivanilla.com:
 Record |  Type  | Value
 ------ | :----: | ------
-@      |   A    | 157.90.148.42
+@      |   A    | 135.148.121.47
 www    | CNAME  | @
-play   | CNAME  | 136.243.49.126
+play   | CNAME  | 51.222.244.67
 mc     | CNAME  | play.semivanilla.com
 store  | CNAME  | 41cb4817.webstore.tebex.io.
 
