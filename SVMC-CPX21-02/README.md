@@ -34,7 +34,11 @@ Java is located at /usr/java/\<version\>
 
 ## External Firewall:
 
-- 25565 tcp/udp
-- 8080,8192 tcp
-- 22 tcp
-- all outbound traffic
+Standard:
+- 25565 udp (priority 0)
+- 25565 tcp (priority 1)
+- 8080 tcp (priority 2)
+- 8192 tcp (priority 3)
+- 22 tcp (priority 17)
+- refuse all udp (priority 18)
+- refuse all tcp (priotiy 19)
