@@ -16,7 +16,6 @@ Java is located at /usr/java/\<version\>
 
 - jdk-17.0.1+12 Temurin JRE from https://adoptium.net/
 - mcrcon from https://github.com/Tiiffi/mcrcon
-- letsencrypt from https://certbot.eff.org/instructions?ws=nginx&os=centosrhel8
 - Git
 - tar
 - firewalld
