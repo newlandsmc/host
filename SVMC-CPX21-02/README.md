@@ -28,7 +28,7 @@ Java is located at /usr/java/\<version\>
 
 ## MariaDB Setup:
 
-CREATE DATABASE aurelium;
+```CREATE DATABASE aurelium;
 CREATE DATABASE coreprotect;
 CREATE DATABASE litebans;
 CREATE DATABASE luckperms;
@@ -43,7 +43,7 @@ GRANT ALL PRIVILEGES ON coreprotect.* TO 'coreprotect'@localhost;
 GRANT ALL PRIVILEGES ON litebans.* TO 'litebans'@localhost;
 GRANT ALL PRIVILEGES ON luckperms.* TO 'luckperms'@localhost;
 GRANT ALL PRIVILEGES ON lwc.* TO 'lwc'@localhost;
-FLUSH PRIVILEGES;
+FLUSH PRIVILEGES;```
 
 ## External Firewall:
 
