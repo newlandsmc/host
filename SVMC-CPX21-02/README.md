@@ -26,11 +26,6 @@ Java is located at /usr/java/\<version\>
 - minecraft /var/minecraft /bin/bash (no password) (aka SVMC Bot on Github)
 - \<all admins\> (add to "minecraft" group)
 
-## Path variables added:
-
-- /var/minecraft/mcrcon
-- /usr/java/jdk-17.0.1+12/bin
-
 ## External Firewall:
 
 Standard:
