@@ -31,6 +31,27 @@ Java is located at /usr/java/\<version\>
 - minecraft /var/minecraft /bin/bash (no password) (aka SVMC Bot on Github)
 - \<all admins\> (add to "minecraft" group)
 
+## MariaDB Setup:
+
+```
+CREATE DATABASE aurelium;
+CREATE DATABASE coreprotect;
+CREATE DATABASE litebans;
+CREATE DATABASE luckperms;
+CREATE DATABASE lands;
+CREATE USER 'aurelium'@localhost IDENTIFIED BY 'NHCwp2D6NU9Z8cX5';
+CREATE USER 'coreprotect'@localhost IDENTIFIED BY '3ZBwCESb6C65Rpda';
+CREATE USER 'litebans'@localhost IDENTIFIED BY 'TA6gFmSbUqj8WexX';
+CREATE USER 'luckperms'@localhost IDENTIFIED BY 'D744wXcSQr6hSwYQ';
+CREATE USER 'lands'@localhost IDENTIFIED BY 'eTdpfCe8nG6KrYTZ';
+GRANT ALL PRIVILEGES ON aurelium.* TO 'aurelium'@localhost;
+GRANT ALL PRIVILEGES ON coreprotect.* TO 'coreprotect'@localhost;
+GRANT ALL PRIVILEGES ON litebans.* TO 'litebans'@localhost;
+GRANT ALL PRIVILEGES ON luckperms.* TO 'luckperms'@localhost;
+GRANT ALL PRIVILEGES ON lands.* TO 'lands'@localhost;
+FLUSH PRIVILEGES;
+```
+
 ## External Firewall:
 
 GAME:
