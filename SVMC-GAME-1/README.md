@@ -25,6 +25,8 @@ Java is located at /usr/java/\<version\>
 - snapd
 - mariadb-server
 - openssl
+- python3-devel
+- python3-pip
 
 ## Users created:
 
@@ -51,6 +53,10 @@ GRANT ALL PRIVILEGES ON luckperms.* TO 'luckperms'@localhost;
 GRANT ALL PRIVILEGES ON lands.* TO 'lands'@localhost;
 FLUSH PRIVILEGES;
 ```
+
+## Setup backups to S3 with:
+
+https://support.us.ovhcloud.com/hc/en-us/articles/4408821185043-Getting-Started-with-the-Swift-S3-API
 
 ## External Firewall:
 
