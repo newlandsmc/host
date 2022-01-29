@@ -62,6 +62,7 @@ https://support.us.ovhcloud.com/hc/en-us/articles/4408821185043-Getting-Started-
 
 GAME:
 - 25565
+- 19132
 
 Standard:
 - 25565 tcp (priority 0)
@@ -69,5 +70,5 @@ Standard:
 - 8192 tcp (priority 2)
 - allow all established tcp (priority 11)
 - allow all syn tcp (priority 12)
-- 22 tcp (priority 18)
+- 22 tcp (priority 17)
 - deny all tcp (priotiy 19)
