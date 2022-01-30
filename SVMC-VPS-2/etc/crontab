@@ -15,3 +15,6 @@ MAILTO=root
 
 55 6 * * mon root /var/minecraft/server/auto-restart.sh
 15 7 * * mon root /var/minecraft/server/lwc-cleanup.sh
+
+45 6 * * mon minecraft wget https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar --directory-prefix /var/minecraft/server/plugins/
+45 6 * * mon minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --directory-prefix /var/minecraft/server/plugins/
