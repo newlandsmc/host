@@ -56,7 +56,6 @@ Standard:
 - 8192 tcp (priority 3)
 - 19132 udp (priority 10)
 - allow all established tcp (priority 11)
-- allow all syn tcp (priority 12)
 - 22 tcp (priority 17)
 - refuse all udp (priority 18)
 - refuse all tcp (priotiy 19)
