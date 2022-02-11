@@ -26,6 +26,5 @@ Standard:
 - 443 tcp (priority 0)
 - 80 tcp (priority 1)
 - allow all established tcp (priority 11)
-- allow all syn tcp (priority 12)
 - 22 tcp (priority 18)
 - deny all tcp (priority 19)
