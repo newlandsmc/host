@@ -50,12 +50,11 @@ FLUSH PRIVILEGES;
 ## External Firewall:
 
 Standard:
-- 25565 udp (priority 0)
-- 25565 tcp (priority 1)
-- 8080 tcp (priority 2)
-- 8192 tcp (priority 3)
-- 19132 udp (priority 10)
-- allow all established tcp (priority 11)
+- allow all established tcp (priority 0)
+- 25565 udp (priority 1)
+- 25565 tcp (priority 2)
+- 19132 udp (priority 3)
+- 8080 tcp (priority 4)
+- 8192 tcp (priority 5)
 - 22 tcp (priority 17)
-- refuse all udp (priority 18)
-- refuse all tcp (priotiy 19)
+- deny all ipv4 (priotiy 19)
