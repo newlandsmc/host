@@ -1,0 +1,9 @@
+## SemiVanilla MC additions
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart minecraft
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop minecraft
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start minecraft
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status minecraft
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart minecraft.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop minecraft.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start minecraft.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status minecraft.service
