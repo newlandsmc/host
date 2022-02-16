@@ -65,9 +65,9 @@ GAME:
 - 19132
 
 Standard:
-- 25565 tcp (priority 0)
-- 8080 tcp (priority 1)
-- 8192 tcp (priority 2)
-- allow all established tcp (priority 11)
+- allow all established tcp (priority 0)
+- 25565 tcp (priority 1)
+- 8080 tcp (priority 2)
+- 8192 tcp (priority 3)
 - 22 tcp (priority 17)
-- deny all tcp (priotiy 19)
+- deny all ipv4 (priotiy 19)
