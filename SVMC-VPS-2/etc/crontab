@@ -13,7 +13,7 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-55 6 * * mon root /var/minecraft/server/auto-restart.sh
+55 6 * * mon root /var/minecraft/server/end-reboot.sh
 15 7 * * mon root /var/minecraft/server/database-cleanup.sh
 
 45 6 * * mon minecraft wget https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar --output-document=/var/minecraft/pending-updates/Geyser-Spigot.jar --quiet
