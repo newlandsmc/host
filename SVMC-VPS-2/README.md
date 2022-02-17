@@ -4,7 +4,9 @@ Cloud server. Hosts test server, identical to production Minecraft server. Acces
 
 Minecraft server located at /var/minecraft/server
 
-MCRCON located at /var/minecraft/mcrcon
+mcrcon located at /var/minecraft/mcrcon
+
+nbted located at /var/minecraft/nbted
 
 Java is located at /usr/java/\<version\>
 
