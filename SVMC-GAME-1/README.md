@@ -70,9 +70,11 @@ GAME:
 
 Standard:
 - allow all established tcp (priority 0)
-- 25565 tcp (priority 1)
-- 8080 tcp (priority 2)
-- 8192 tcp (priority 3)
+- 25565 udp (priority 1)
+- 25565 tcp (priority 2)
+- 19132 udp (priority 3)
+- 8080 tcp (priority 4)
+- 8192 tcp (priority 5)
 - 25575 from 54.87.231.232 (priority 13)
 - 25575 from 18.209.80.3 (priority 14)
 - fragments from 54.87.231.232 (priority 15)
