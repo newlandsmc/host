@@ -8,7 +8,9 @@ NGINX is installed to serve the squaremap (port 8080). Accessed via reverse prox
 
 Minecraft server located at /var/minecraft/server
 
-MCRCON located at /var/minecraft/mcrcon
+mcrcon located at /var/minecraft/mcrcon
+
+nbted located at /var/minecraft/nbted
 
 Java is located at /usr/java/\<version\>
 
@@ -27,6 +29,8 @@ Java is located at /usr/java/\<version\>
 - openssl
 - python3-devel
 - python3-pip
+- cargo
+- nbted from https://github.com/C4K3/nbted
 
 ## Users created:
 
