@@ -20,6 +20,8 @@ Java is located at /usr/java/\<version\>
 - php
 - snapd
 - mariadb-server
+- cargo
+- nbted from https://github.com/C4K3/nbted
 
 ## Users created:
 
