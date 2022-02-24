@@ -18,7 +18,7 @@ datadir=/var/lib/mysql
 socket=/var/lib/mysql/mysql.sock
 log-error=/var/log/mariadb/mariadb.log
 pid-file=/run/mariadb/mariadb.pid
-innodb_buffer_pool_size=8589934592
+innodb_buffer_pool_size=7000000000
 
 #
 # * Galera-related settings
