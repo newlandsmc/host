@@ -34,7 +34,7 @@ Java is located at /usr/java/\<version\>
 
 ## Users created:
 
-- minecraft /var/minecraft /bin/bash (no password) (aka SVMC Bot on Github)
+- minecraft /var/minecraft /bin/bash (add to "systemd-journal" group) (no password) (aka SVMC Bot on Github)
 - \<all admins\> (add to "minecraft" group)
 - root and default user have no password (passwd -dl \<username\>)
 
