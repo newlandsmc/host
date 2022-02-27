@@ -36,7 +36,7 @@ Java is located at /usr/java/\<version\>
 
 - minecraft /var/minecraft /bin/bash (no password) (aka SVMC Bot on Github)
 - \<all admins\> (add to "minecraft" group)
-- root and default user have no password (locked)
+- root and default user have no password (passwd -dl <username>)
 
 ## MariaDB Setup:
 
