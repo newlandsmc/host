@@ -1,4 +1,4 @@
-# SVMC-CPX21-02
+# SVMC-VPS-2
 
 Cloud server. Hosts test server, identical to production Minecraft server. Accessed via IP.
 
