@@ -147,4 +147,3 @@ Subsystem       sftp    /usr/libexec/openssh/sftp-server
 #       AllowTcpForwarding no
 #       PermitTTY no
 #       ForceCommand cvs server
-[sudoyou@AX51-NVME-1 server]$
