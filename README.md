@@ -10,17 +10,19 @@ Ideally, this contains enough info to recreate any of our hosts should we ever n
 semivanilla.com:
 Record |  Type  | Value
 ------ | :----: | ------
-@      |   A    | 135.148.121.47
+@      | A      | 135.148.121.47
 www    | CNAME  | @
-play   | CNAME  | 51.222.244.67
+play   | A      | 51.222.244.67
 mc     | CNAME  | play.semivanilla.com
 store  | CNAME  | 41cb4817.webstore.tebex.io.
 
 asthonia.com:
 Record |  Type  | Value
 ------ | :----: | ------
-@      |   A    | 135.148.121.47
+@      | A      | 135.148.121.47
 www    | CNAME  | @
+play   | A      | 51.222.244.187
+mc     | CNMA   | play.asthonia.com
 store  | CNAME  | 83bca8bf.webstore.tebex.io.
 
 
