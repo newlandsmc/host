@@ -1,4 +1,4 @@
-# SVMC-CPX21-01
+# SVMC-VPS-1
 
 Cloud server. Hosts website and reverse proxy to map on production Minecraft server.
 
