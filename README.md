@@ -16,13 +16,20 @@ play   | CNAME  | 51.222.244.67
 mc     | CNAME  | play.semivanilla.com
 store  | CNAME  | 41cb4817.webstore.tebex.io.
 
-semi-vanilla.com:
+asthonia.com:
+Record |  Type  | Value
+------ | :----: | ------
+@      |   A    | 135.148.121.47
+www    | CNAME  | @
+store  | CNAME  | 83bca8bf.webstore.tebex.io.
+
+
+semi-vanilla.com, semi-vanilla.net, semivanilla.org, semivanill.co:
 Record |  Type  | Value
 ------ | :----: | ------
 \*      |   CNAME    | semivanilla.com
 
-semivanilla.org:
+asthonia.net, asthonia.org, asthonia.co:
 Record |  Type  | Value
 ------ | :----: | ------
-\*      |   CNAME    | semivanilla.com
-
+\*      |   CNAME    | asthonia.com
