@@ -1,4 +1,4 @@
-# SVMC-AX51NVME-01
+# SVMC-GAME-1
 
 Dedicated server. Hosts the production Minecraft server.
 
