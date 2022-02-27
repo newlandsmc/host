@@ -2,7 +2,8 @@
 
 Cloud server. Hosts website and reverse proxy to map on production Minecraft server.
 
-Website located at /var/minecraft/website
+Website located at /var/minecraft/svmc-website
+and /var/minecraft/asthonia-website
 
 ## Packages Installed:
 
