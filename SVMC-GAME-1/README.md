@@ -63,6 +63,8 @@ FLUSH PRIVILEGES;
 
 https://support.us.ovhcloud.com/hc/en-us/articles/4408821185043-Getting-Started-with-the-Swift-S3-API
 
+.aws folder will be under root. backup script will run as root.
+
 ## External Firewall:
 
 GAME:
