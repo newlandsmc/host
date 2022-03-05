@@ -17,5 +17,5 @@ MAILTO=root
 55 6 * * mon root /var/minecraft/server/auto-reboot.sh
 15 7 * * mon root /var/minecraft/server/database-cleanup.sh
 
-45 6 * * mon minecraft wget https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar --output-document=/var/minecraft/pending-updates/Geyser-Spigot.jar --quiet
-45 6 * * mon minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/pending-updates/floodgate-spigot.jar --quiet
+45 6 * * mon minecraft wget https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar --output-document=/var/minecraft/pending-updates/Geyser.jar --quiet
+45 6 * * mon minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/pending-updates/floodgate.jar --quiet
