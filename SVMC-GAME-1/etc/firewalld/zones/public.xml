@@ -5,8 +5,9 @@
   <service name="cockpit"/>
   <service name="ssh"/>
   <service name="dhcpv6-client"/>
-  <port port="22" protocol="tcp"/>
   <port port="25565" protocol="tcp"/>
   <port port="25565" protocol="udp"/>
+  <port port="19132" protocol="udp"/>
   <port port="8192" protocol="tcp"/>
+  <port port="22" protocol="tcp"/>
 </zone>
