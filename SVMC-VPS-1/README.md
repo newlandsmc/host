@@ -4,8 +4,11 @@ Cloud server. Hosts website, Discord bot, and reverse proxy to map on production
 
 Website located at /var/minecraft/svmc-website and /var/minecraft/asthonia-website
 
+Java is located at /usr/java/<version>
+
 ## Packages Installed:
 
+- jdk-17.0.1+12 Temurin JRE from https://adoptium.net/
 - letsencrypt from https://certbot.eff.org/instructions?ws=nginx&os=centosrhel8
 - Git
 - tar
