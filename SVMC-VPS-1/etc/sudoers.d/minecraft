@@ -1,0 +1,9 @@
+## SemiVanilla MC additions
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart discord-bot
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop discord-bot
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start discord-bot
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status discord-bot
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart discord-bot.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop discord-bot.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start discord-bot.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status discord-bot.service
