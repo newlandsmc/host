@@ -2,7 +2,9 @@
 
 Cloud server. Hosts website, Discord bot, and reverse proxy to map on production Minecraft server.
 
-Website located at /var/minecraft/svmc-website and /var/minecraft/asthonia-website
+Website located at /var/minecraft/svmc-website and /var/minecraft/asthonia-website and /var/minecraft/khavalon-website
+
+Discord bot located at /var/minecraft/discord-bot
 
 Java is located at /usr/java/<version>
 
