@@ -1,6 +1,6 @@
 # SVMC-GAME-1
 
-Dedicated server. Hosts the production Minecraft server.
+Dedicated server. Hosts the production Khavalon Minecraft server.
 
 NGINX is installed to serve the squaremap (port 8080). Accessed via reverse proxy through webserver. HTTPS is enabled via cert generated with OpenSSL:
 
