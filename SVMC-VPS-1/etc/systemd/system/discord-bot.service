@@ -22,7 +22,7 @@ InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
 ReadWriteDirectories=/var/minecraft/discord-bot
 WorkingDirectory=/var/minecraft/discord-bot
 
-ExecStart=/bin/bash -c '/usr/java/jdk-17.0.2+8-jre/bin/java -Xms1G -Xmx1G -jar SVDiscord.jar'
+ExecStart=/bin/bash -c '/usr/java/jdk-17.0.2+8-jre/bin/java -Xms2G -Xmx2G -jar SVDiscord.jar'
 
 [Install]
 WantedBy=multi-user.target
