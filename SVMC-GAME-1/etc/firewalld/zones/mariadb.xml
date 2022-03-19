@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone>
+  <port port="3306" protocol="tcp"/>
+  <source address="51.222.244.187"/>
+</zone>
