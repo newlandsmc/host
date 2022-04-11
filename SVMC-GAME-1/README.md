@@ -29,8 +29,8 @@ Java is located at /usr/java/\<version\>
 - openssl
 - python3-devel
 - python3-pip
-~~- cargo~~
-~~- nbted from https://github.com/C4K3/nbted~~
+- ~~cargo~~
+- ~~nbted from https://github.com/C4K3/nbted~~
 
 ## Users created:
 
