@@ -1,9 +1,18 @@
 ## SemiVanilla MC additions
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart minecraft
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop minecraft
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start minecraft
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status minecraft
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart minecraft.service
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop minecraft.service
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start minecraft.service
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status minecraft.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart khavalon
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop khavalon
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start khavalon
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status khavalon
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart khavalon.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop khavalon.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start khavalon.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status khavalon.service
+
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart asthonia
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop asthonia
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start asthonia
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status asthonia
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart asthonia.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop asthonia.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start asthonia.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status asthonia.service
