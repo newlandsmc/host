@@ -10,7 +10,7 @@ Minecraft server located at /var/minecraft/server
 
 mcrcon located at /var/minecraft/mcrcon
 
-nbted located at /var/minecraft/nbted
+~~nbted located at /var/minecraft/nbted~~
 
 Java is located at /usr/java/\<version\>
 
@@ -24,13 +24,13 @@ Java is located at /usr/java/\<version\>
 - wget
 - nginx
 - php
-- snapd
+- snapd from https://snapcraft.io/docs/installing-snap-on-rocky
 - mariadb-server
 - openssl
 - python3-devel
 - python3-pip
-- cargo
-- nbted from https://github.com/C4K3/nbted
+~~- cargo~~
+~~- nbted from https://github.com/C4K3/nbted~~
 
 ## Users created:
 
