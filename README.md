@@ -12,26 +12,24 @@ Record |  Type  | Value
 ------ | :----: | ------
 @      | A      | 135.148.121.47
 www    | CNAME  | @
-play   | A      | 51.222.244.67
+play   | A      | 135.148.137.94
 mc     | CNAME  | play.semivanilla.com
-store  | CNAME  | 41cb4817.webstore.tebex.io.
+store  | CNAME  | f85d22dd.webstore.tebex.io.
 
 asthonia.com:
 Record |  Type  | Value
 ------ | :----: | ------
 @      | A      | 135.148.121.47
 www    | CNAME  | @
-play   | A      | 51.222.244.187
+play   | A      | 135.148.137.94
 mc     | CNMA   | play.asthonia.com
-store  | CNAME  | 83bca8bf.webstore.tebex.io.
+store  | 301    | store.semivanilla.com
 
-
-semi-vanilla.com, semi-vanilla.net, semivanilla.org, semivanill.co:
+khavalon.com:
 Record |  Type  | Value
 ------ | :----: | ------
-\*      |   CNAME    | semivanilla.com
-
-asthonia.net, asthonia.org, asthonia.co:
-Record |  Type  | Value
------- | :----: | ------
-\*      |   CNAME    | asthonia.com
+@      | A      | 135.148.121.47
+www    | CNAME  | @
+play   | A      | 135.148.137.94
+mc     | CNMA   | play.khavalon.com
+store  | 301    | store.semivanilla.com
