@@ -1,1 +1,0 @@
-pathmunge /var/minecraft/nbted
