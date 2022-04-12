@@ -1,1 +1,0 @@
-pathmunge /usr/java/jdk-17.0.1+12-jre/bin
