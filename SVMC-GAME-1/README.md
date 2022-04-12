@@ -1,12 +1,12 @@
-# SVMC-GAME-1
+# SVMC-GAME-3
 
-Dedicated server. Hosts the production Khavalon Minecraft server.
+Dedicated server. Hosts the production servers.
 
 NGINX is installed to serve the squaremap (port 8080). Accessed via reverse proxy through webserver. HTTPS is enabled via cert generated with OpenSSL:
 
 `sudo openssl req -newkey rsa:2048 -x509 -sha256 -days 730 -nodes -out <ip.crt> -keyout <ip.key>`
 
-Minecraft server located at /var/minecraft/server
+Minecraft servers located at /var/minecraft/
 
 mcrcon located at /var/minecraft/mcrcon
 
@@ -83,7 +83,9 @@ Standard:
 - 25565 tcp (priority 2)
 - 19132 udp (priority 3)
 - 8080 tcp (priority 4)
-- 8192 tcp (priority 5)
+- 8081 tcp (priority 5)
+- 8192 tcp (priority 6)
+- 8193 tcp (priority 7)
 - 3306 from 51.222.244.187 (priority 12)
 - 25575 from 54.87.231.232 (priority 13)
 - 25575 from 18.209.80.3 (priority 14)
