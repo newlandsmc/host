@@ -85,7 +85,6 @@ Standard:
 - 8080 tcp (priority 4)
 - 8081 tcp (priority 5)
 - 8192 tcp (priority 6)
-- 8193 tcp (priority 7)
 - 3306 from 51.222.244.187 (priority 12)
 - 25575 from 54.87.231.232 (priority 13)
 - 25575 from 18.209.80.3 (priority 14)
