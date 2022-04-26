@@ -16,3 +16,21 @@
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop asthonia.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start asthonia.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status asthonia.service
+
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart lobby
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop lobby
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start lobby
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status lobby
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart lobby.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop lobby.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start lobby.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status lobby.service
+
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart proxy
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop proxy
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start proxy
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status proxy
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart proxy.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop proxy.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start proxy.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status proxy.service
