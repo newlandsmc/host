@@ -43,23 +43,23 @@ Java is located at /usr/java/\<version\>
 ```
 CREATE DATABASE khavalon_aurelium;
 CREATE DATABASE khavalon_coreprotect;
-CREATE DATABASE khavalon_lands;
+CREATE DATABASE khavalon_gpdata;
 CREATE DATABASE asthonia_aurelium;
 CREATE DATABASE asthonia_coreprotect;
-CREATE DATABASE asthonia_lands;
+CREATE DATABASE asthonia_gpdata;
 CREATE DATABASE litebans;
 CREATE DATABASE luckperms;
 CREATE USER 'aurelium'@localhost IDENTIFIED BY 'NHCwp2D6NU9Z8cX5';
 CREATE USER 'coreprotect'@localhost IDENTIFIED BY '3ZBwCESb6C65Rpda';
 CREATE USER 'litebans'@localhost IDENTIFIED BY 'TA6gFmSbUqj8WexX';
 CREATE USER 'luckperms'@localhost IDENTIFIED BY 'D744wXcSQr6hSwYQ';
-CREATE USER 'lands'@localhost IDENTIFIED BY 'eTdpfCe8nG6KrYTZ';
+CREATE USER 'griefprevention'@localhost IDENTIFIED BY 'NYBXJw9K9PhbeZkT';
 GRANT ALL PRIVILEGES ON khavalon_aurelium.* TO 'aurelium'@localhost;
 GRANT ALL PRIVILEGES ON khavalon_coreprotect.* TO 'coreprotect'@localhost;
-GRANT ALL PRIVILEGES ON khavalon_lands.* TO 'lands'@localhost;
+GRANT ALL PRIVILEGES ON khavalon_gpdata.* TO 'griefprevention'@localhost;
 GRANT ALL PRIVILEGES ON asthonia_aurelium.* TO 'aurelium'@localhost;
 GRANT ALL PRIVILEGES ON asthonia_coreprotect.* TO 'coreprotect'@localhost;
-GRANT ALL PRIVILEGES ON asthonia_lands.* TO 'lands'@localhost;
+GRANT ALL PRIVILEGES ON asthonia_gpdata.* TO 'griefprevention'@localhost;
 GRANT ALL PRIVILEGES ON litebans.* TO 'litebans'@localhost;
 GRANT ALL PRIVILEGES ON luckperms.* TO 'luckperms'@localhost;
 FLUSH PRIVILEGES;
