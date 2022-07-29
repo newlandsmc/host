@@ -23,7 +23,7 @@ MAILTO=root
 
 55 6 * * 1              root /var/minecraft/proxy/auto-reboot.sh
 
-45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/velocity/target/Geyser-BungeeCord.jar --output-document=/var/minecraft/proxy/pending-updates/Geyser.jar --quiet
-45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/velocity/target/floodgate-bungee.jar --output-document=/var/minecraft/proxy/pending-updates/floodgate.jar --quiet
+45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/bungeecord/target/Geyser-BungeeCord.jar --output-document=/var/minecraft/proxy/pending-updates/Geyser.jar --quiet
+45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/bungee/target/floodgate-bungee.jar --output-document=/var/minecraft/proxy/pending-updates/floodgate.jar --quiet
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/khavalon/pending-updates/floodgate.jar --quiet
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/asthonia/pending-updates/floodgate.jar --quiet
