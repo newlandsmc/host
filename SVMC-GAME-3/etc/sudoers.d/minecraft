@@ -34,3 +34,12 @@
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop proxy.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start proxy.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status proxy.service
+
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart creative
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop creative
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start creative
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status creative
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart creative.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop creative.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start creative.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status creative.service
