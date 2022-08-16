@@ -50,6 +50,7 @@ CREATE DATABASE asthonia_gpdata;
 CREATE DATABASE litebans;
 CREATE DATABASE luckperms;
 CREATE DATABASE creative_plotsquared;
+CREATE DATABASE creative_coreprotect;
 CREATE USER 'aurelium'@localhost IDENTIFIED BY 'NHCwp2D6NU9Z8cX5';
 CREATE USER 'coreprotect'@localhost IDENTIFIED BY '3ZBwCESb6C65Rpda';
 CREATE USER 'litebans'@localhost IDENTIFIED BY 'TA6gFmSbUqj8WexX';
@@ -65,6 +66,7 @@ GRANT ALL PRIVILEGES ON asthonia_gpdata.* TO 'griefprevention'@localhost;
 GRANT ALL PRIVILEGES ON litebans.* TO 'litebans'@localhost;
 GRANT ALL PRIVILEGES ON luckperms.* TO 'luckperms'@localhost;
 GRANT ALL PRIVILEGES ON creative_plotsquared.* TO 'plotsquared'@localhost;
+GRANT ALL PRIVILEGES ON creative_coreprotect.* TO 'coreprotect'@localhost;
 FLUSH PRIVILEGES;
 ```
 
