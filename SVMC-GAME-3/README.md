@@ -51,12 +51,14 @@ CREATE DATABASE litebans;
 CREATE DATABASE luckperms;
 CREATE DATABASE creative_plotsquared;
 CREATE DATABASE creative_coreprotect;
+CREATE DATABASE premiumvanish;
 CREATE USER 'aurelium'@localhost IDENTIFIED BY 'NHCwp2D6NU9Z8cX5';
 CREATE USER 'coreprotect'@localhost IDENTIFIED BY '3ZBwCESb6C65Rpda';
 CREATE USER 'litebans'@localhost IDENTIFIED BY 'TA6gFmSbUqj8WexX';
 CREATE USER 'luckperms'@localhost IDENTIFIED BY 'D744wXcSQr6hSwYQ';
 CREATE USER 'griefprevention'@localhost IDENTIFIED BY 'NYBXJw9K9PhbeZkT';
 CREATE USER 'plotsquared'@localhost IDENTIFIED BY 'Cy34cS4mWpdJ62X8';
+CREATE USER 'premiumvanish'@localhost IDENTIFIED BY 'p9td448Rmn46jY36';
 GRANT ALL PRIVILEGES ON khavalon_aurelium.* TO 'aurelium'@localhost;
 GRANT ALL PRIVILEGES ON khavalon_coreprotect.* TO 'coreprotect'@localhost;
 GRANT ALL PRIVILEGES ON khavalon_gpdata.* TO 'griefprevention'@localhost;
@@ -67,6 +69,7 @@ GRANT ALL PRIVILEGES ON litebans.* TO 'litebans'@localhost;
 GRANT ALL PRIVILEGES ON luckperms.* TO 'luckperms'@localhost;
 GRANT ALL PRIVILEGES ON creative_plotsquared.* TO 'plotsquared'@localhost;
 GRANT ALL PRIVILEGES ON creative_coreprotect.* TO 'coreprotect'@localhost;
+GRANT ALL PRIVILEGES ON premiumvanish.* TO 'premiumvanish'@localhost;
 FLUSH PRIVILEGES;
 ```
 
