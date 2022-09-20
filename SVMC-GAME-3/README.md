@@ -86,22 +86,21 @@ Configured following: https://docs.ovh.com/us/en/public-cloud/configure_a_failov
 
 ## External Firewall:
 
-GAME:
-- 25565
-- 19132
+Main IP:
+- allow all established tcp (priority 0)
+- 22 tcp (priority 12)
+- 25576 from 54.87.231.232 (priority 13)
+- 25577 from 54.87.231.232 (priority 14)
+- 25576 from 18.209.80.3 (priority 15)
+- 25577 from 18.209.80.3 (priority 16)
+- fragments from 54.87.231.232 (priority 17)
+- fragments from 18.209.80.3 (priority 18)
+- deny all ipv4 (priotiy 19)
 
-Standard:
+Failover IPs:
 - allow all established tcp (priority 0)
 - 25565 udp (priority 1)
 - 25565 tcp (priority 2)
 - 19132 udp (priority 3)
-- 8080 tcp (priority 4)
-- 8081 tcp (priority 5)
-- 8192 tcp (priority 6)
-- 3306 from 51.222.244.187 (priority 12)
-- 25575 from 54.87.231.232 (priority 13)
-- 25575 from 18.209.80.3 (priority 14)
-- fragments from 54.87.231.232 (priority 15)
-- fragments from 18.209.80.3 (priority 16)
-- 22 tcp (priority 17)
+- 8192 tcp (priority 4)
 - deny all ipv4 (priotiy 19)
