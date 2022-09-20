@@ -12,7 +12,7 @@ Record |  Type  | Value
 ------ | :----: | ------
 @      | A      | 135.148.121.47
 www    | CNAME  | @
-play   | A      | 135.148.137.94
+play   | A      | 147.135.3.152
 mc     | CNAME  | play.semivanilla.com
 store  | CNAME  | f85d22dd.webstore.tebex.io.
 
@@ -21,7 +21,7 @@ Record |  Type  | Value
 ------ | :----: | ------
 @      | A      | 135.148.121.47
 www    | CNAME  | @
-play   | A      | 135.148.137.94
+play   | A      | 147.135.3.152
 mc     | CNMA   | play.asthonia.com
 store  | 301    | store.semivanilla.com
 
@@ -30,6 +30,6 @@ Record |  Type  | Value
 ------ | :----: | ------
 @      | A      | 135.148.121.47
 www    | CNAME  | @
-play   | A      | 135.148.137.94
+play   | A      | 147.135.3.152
 mc     | CNMA   | play.khavalon.com
 store  | 301    | store.semivanilla.com
