@@ -79,6 +79,11 @@ https://support.us.ovhcloud.com/hc/en-us/articles/4408821185043-Getting-Started-
 
 .aws folder will be under root. backup script will run as root.
 
+## Failover IPs:
+
+/30 group purchased
+Configured following: https://docs.ovh.com/us/en/public-cloud/configure_a_failover_ip
+
 ## External Firewall:
 
 GAME:
