@@ -88,13 +88,14 @@ Configured following: https://docs.ovh.com/us/en/public-cloud/configure_a_failov
 
 Main IP:
 - allow all established tcp (priority 0)
-- 22 tcp (priority 12)
-- 25576 from 54.87.231.232 (priority 13)
-- 25577 from 54.87.231.232 (priority 14)
-- 25576 from 18.209.80.3 (priority 15)
-- 25577 from 18.209.80.3 (priority 16)
-- fragments from 54.87.231.232 (priority 17)
-- fragments from 18.209.80.3 (priority 18)
+- 22 tcp (priority 11)
+- 25576 from 54.87.231.232 (priority 12)
+- 25577 from 54.87.231.232 (priority 13)
+- 25576 from 18.209.80.3 (priority 14)
+- 25577 from 18.209.80.3 (priority 15)
+- fragments from 54.87.231.232 (priority 16)
+- fragments from 18.209.80.3 (priority 17)
+- allow all icmp (priority 18)
 - deny all ipv4 (priotiy 19)
 
 Failover IPs:
@@ -103,4 +104,5 @@ Failover IPs:
 - 25565 tcp (priority 2)
 - 19132 udp (priority 3)
 - 8192 tcp (priority 4)
+- allow all icmp (priority 18)
 - deny all ipv4 (priotiy 19)
