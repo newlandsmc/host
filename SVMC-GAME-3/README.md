@@ -91,7 +91,13 @@ https://support.us.ovhcloud.com/hc/en-us/articles/4408821185043-Getting-Started-
 ## Failover IPs:
 
 /30 group purchased
-Configured following: https://docs.ovh.com/us/en/public-cloud/configure_a_failover_ip
+
+```
+ip addr add 147.135.3.152/32 dev enp1s0f0
+ip addr add 147.135.3.153/32 dev enp1s0f0
+ip addr add 147.135.3.154/32 dev enp1s0f0
+ip addr add 147.135.3.155/32 dev enp1s0f0
+```
 
 ## External Firewall:
 
