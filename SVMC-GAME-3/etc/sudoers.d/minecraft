@@ -43,3 +43,12 @@
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop creative.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start creative.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status creative.service
+
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart hardline
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop hardline
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start hardline
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status hardline
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart hardline.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop hardline.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start hardline.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status hardline.service
