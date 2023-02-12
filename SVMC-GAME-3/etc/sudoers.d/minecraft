@@ -8,14 +8,14 @@
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start khavalon.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status khavalon.service
 
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart asthonia
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop asthonia
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start asthonia
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status asthonia
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart asthonia.service
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop asthonia.service
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start asthonia.service
-%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status asthonia.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart survival
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop survival
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start survival
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status survival
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart survival.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop survival.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start survival.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status survival.service
 
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart lobby
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop lobby
