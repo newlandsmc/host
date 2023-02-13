@@ -18,8 +18,8 @@ MAILTO=root
 55 6 * * 0,2,3,4,5,6    root /var/minecraft/khavalon/auto-reboot.sh
 15 7 * * *              root /var/minecraft/khavalon/database-cleanup.sh
 
-55 7 * * 0,2,3,4,5,6    root /var/minecraft/asthonia/auto-reboot.sh
-15 8 * * *              root /var/minecraft/asthonia/database-cleanup.sh
+55 7 * * 0,2,3,4,5,6    root /var/minecraft/survival/auto-reboot.sh
+15 8 * * *              root /var/minecraft/survival/database-cleanup.sh
 
 55 8 * * 0,2,3,4,5,6    root /var/minecraft/creative/auto-reboot.sh
 15 9 * * *              root /var/minecraft/creative/database-cleanup.sh
@@ -32,7 +32,7 @@ MAILTO=root
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/bungeecord/target/Geyser-BungeeCord.jar --output-document=/var/minecraft/proxy/pending-updates/Geyser.jar --quiet
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/bungee/target/floodgate-bungee.jar --output-document=/var/minecraft/proxy/pending-updates/floodgate.jar --quiet
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/khavalon/pending-updates/floodgate.jar --quiet
-45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/asthonia/pending-updates/floodgate.jar --quiet
+45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/survival/pending-updates/floodgate.jar --quiet
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/creative/pending-updates/floodgate.jar --quiet
 45 6 * * 1              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar --output-document=/var/minecraft/lobby/pending-updates/floodgate.jar --quiet
 
