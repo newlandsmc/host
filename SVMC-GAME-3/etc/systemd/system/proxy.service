@@ -26,5 +26,7 @@ ExecStartPre=/var/minecraft/proxy/install-updates.sh
 
 ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms500M -Xmx500M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15 -jar $(<version.txt)'
 
+SyslogIdentifier=proxy
+
 [Install]
 WantedBy=multi-user.target
