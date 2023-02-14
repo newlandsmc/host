@@ -24,6 +24,7 @@ Java is located at /usr/java/\<version\>
 - wget
 - nginx
 - php
+- rsync
 - snapd from https://snapcraft.io/docs/installing-snap-on-rocky
 - mariadb-server
 - openssl
