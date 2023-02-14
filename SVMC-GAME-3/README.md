@@ -14,6 +14,8 @@ mcrcon located at /var/minecraft/mcrcon
 
 Java is located at /usr/java/\<version\>
 
+Backup drive is mounted with: https://kb.vander.host/operating-systems/how-to-create-a-new-lvm-disk-in-ubuntu-and-mount-it-all-the-way-to-fstab/
+
 ## Packages Installed:
 
 - jdk-17.0.1+12 Temurin JRE from https://adoptium.net/
@@ -82,51 +84,3 @@ GRANT ALL PRIVILEGES ON premiumvanish.* TO 'premiumvanish'@localhost;
 GRANT ALL PRIVILEGES ON nickname.* TO 'nickname'@localhost;
 FLUSH PRIVILEGES;
 ```
-
-## Setup backups to S3 with:
-
-https://support.us.ovhcloud.com/hc/en-us/articles/4408821185043-Getting-Started-with-the-Swift-S3-API
-
-.aws folder will be under root. backup script will run as root.
-
-## Failover IPs:
-
-/30 group purchased
-
-```
-ip addr add 147.135.3.152/32 dev enp1s0f0
-ip addr add 147.135.3.153/32 dev enp1s0f0
-ip addr add 147.135.3.154/32 dev enp1s0f0
-ip addr add 147.135.3.155/32 dev enp1s0f0
-```
-
-## External Firewall:
-
-Main IP:
-- allow all established tcp (priority 0)
-- 25565 udp (priority 1)
-- 25565 tcp (priority 2)
-- 19132 udp (priority 3)
-- 8192 tcp (priority 4)
-- allow all icmp (priority 11)
-- 22 tcp (priority 12)
-- 25576 from 54.87.231.232 (priority 13)
-- 25577 from 54.87.231.232 (priority 14)
-- 25576 from 18.209.80.3 (priority 15)
-- 25577 from 18.209.80.3 (priority 16)
-- fragments from 54.87.231.232 (priority 17)
-- fragments from 18.209.80.3 (priority 18)
-- deny all ipv4 (priotiy 19)
-
-Failover IPs:
-- allow all established tcp (priority 0)
-- 25565 udp (priority 1)
-- 25565 tcp (priority 2)
-- 19132 udp (priority 3)
-- 8192 tcp (priority 4)
-- 25575 from 54.87.231.232 (priority 14)
-- 25575 from 18.209.80.3 (priority 15)
-- fragments from 54.87.231.232 (priority 16)
-- fragments from 18.209.80.3 (priority 17)
-- allow all icmp (priority 18)
-- deny all ipv4 (priotiy 19)
