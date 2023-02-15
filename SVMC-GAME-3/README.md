@@ -14,7 +14,7 @@ mcrcon located at /var/minecraft/mcrcon
 
 Java is located at /usr/java/\<version\>
 
-Backup drive is mounted with: https://kb.vander.host/operating-systems/how-to-create-a-new-lvm-disk-in-ubuntu-and-mount-it-all-the-way-to-fstab/
+Backup drive is mounted with: http://www.computers-it.com/linux/linux_add_new_disk_to_VG.php
 
 ## Packages Installed:
 
