@@ -2,5 +2,6 @@
 <zone>
   <port port="8080" protocol="tcp"/>
   <port port="8081" protocol="tcp"/>
-  <source address="135.148.121.47"/>
+  <port port="8082" protocol="tcp"/>
+  <source address="192.168.50.4"/>
 </zone>
