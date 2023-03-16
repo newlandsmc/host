@@ -13,14 +13,15 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-*/2 * * * *             root /var/minecraft/status-bot/player-count.sh
-*/5 * * * *             root /var/minecraft/status-bot/server-status.sh apiCall proxy
-*/5 * * * *             root /var/minecraft/status-bot/server-status.sh apiCall lobby
-*/5 * * * *             root /var/minecraft/status-bot/server-status.sh apiCall survival
-*/5 * * * *             root /var/minecraft/status-bot/server-status.sh apiCall creative
+*/5 * * * *             root /var/minecraft/status-bot/external-status.sh
+*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer proxy
+*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer lobby
+*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer survival
+*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer creative
+*/2 * * * *             root /var/minecraft/status-bot/server-status.sh globalStatus null
 
 00 1 * * *              root /var/minecraft/proxy/backup.sh
-55 1 * * *              root /var/minecraft/proxy/auto-reboot.sh
+55 */6 * * *            root /var/minecraft/proxy/auto-reboot.sh
 
 #55 1 * * *             root /var/minecraft/lobby/auto-reboot.sh
 15 2 * * *              root /var/minecraft/lobby/database-cleanup.sh
