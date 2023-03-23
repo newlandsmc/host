@@ -52,3 +52,12 @@
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop hardline.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start hardline.service
 %minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status hardline.service
+
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart semivanilla
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop semivanilla
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start semivanilla
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status semivanilla
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart semivanilla.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl stop semivanilla.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl start semivanilla.service
+%minecraft ALL=(ALL) NOPASSWD: /usr/bin/systemctl status semivanilla.service
