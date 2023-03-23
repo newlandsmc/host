@@ -1,5 +1,6 @@
 [Unit]
-Description=SVMC Discord Bot
+Description=New Lands Discord Bot
+After=network.target
 Documentation=
 
 Wants=network.target
@@ -19,12 +20,12 @@ PrivateDevices=true
 NoNewPrivileges=true
 PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
-ReadWriteDirectories=/var/minecraft/svmc-discord-bot
-WorkingDirectory=/var/minecraft/svmc-discord-bot
+ReadWriteDirectories=/var/minecraft/newlands/discord-bot
+WorkingDirectory=/var/minecraft/newlands/discord-bot
 
 ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms500M -Xmx500M -jar SVDiscord.jar'
 
-SyslogIdentifier=svmc-discord-bot
+SyslogIdentifier=newlands-discord-bot
 
 [Install]
 WantedBy=multi-user.target
