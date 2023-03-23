@@ -1,5 +1,6 @@
 [Unit]
-Description=Proxy Minecraft Server
+Description=New Lands Proxy Minecraft Server
+After=network.target mariadb.target
 Documentation=
 
 Wants=network.target
@@ -19,14 +20,14 @@ PrivateDevices=true
 NoNewPrivileges=true
 PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
-ReadWriteDirectories=/var/minecraft/proxy
-WorkingDirectory=/var/minecraft/proxy
+ReadWriteDirectories=/var/minecraft/newlands/proxy
+WorkingDirectory=/var/minecraft/newlands/proxy
 
-ExecStartPre=/var/minecraft/proxy/install-updates.sh
+ExecStartPre=/var/minecraft/newlands/proxy/install-updates.sh
 
 ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms500M -Xmx500M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15 -jar $(<version.txt)'
 
-SyslogIdentifier=proxy
+SyslogIdentifier=newlands-proxy
 
 [Install]
 WantedBy=multi-user.target
