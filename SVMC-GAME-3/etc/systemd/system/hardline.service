@@ -1,5 +1,6 @@
 [Unit]
 Description=Hardline Minecraft Server
+After=network.target mariadb.target
 Documentation=
 
 Wants=network.target
@@ -19,15 +20,15 @@ PrivateDevices=true
 NoNewPrivileges=true
 PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
-ReadWriteDirectories=/var/minecraft/hardline
-WorkingDirectory=/var/minecraft/hardline
+ReadWriteDirectories=/var/minecraft/hardline/hardline
+WorkingDirectory=/var/minecraft/hardline/hardline
 
-ExecStartPre=/var/minecraft/hardline/install-updates.sh
-ExecStartPre=/var/minecraft/hardline/stats-squish.sh
+ExecStartPre=/var/minecraft/hardline/hardline/install-updates.sh
+ExecStartPre=/var/minecraft/hardline/hardline/stats-squish.sh
 
 ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms8G -Xmx8G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -jar $(<version.txt) nogui'
 
-SyslogIdentifier=hardline
+SyslogIdentifier=hardline-server
 
 [Install]
 WantedBy=multi-user.target
