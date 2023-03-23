@@ -13,34 +13,34 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-*/5 * * * *             root /var/minecraft/status-bot/external-status.sh
-*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer proxy
-*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer lobby
-*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer survival
-*/2 * * * *             root /var/minecraft/status-bot/server-status.sh updateServer creative
-*/2 * * * *             root /var/minecraft/status-bot/server-status.sh globalStatus null
+*/5 * * * *             root /var/minecraft/newlands/status-bot/external-status.sh
+*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer proxy
+*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer lobby
+*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer survival
+*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer creative
+*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh globalStatus null
 
-00 1 * * *              root /var/minecraft/proxy/backup.sh
-55 */6 * * *            root /var/minecraft/proxy/auto-reboot.sh
+00 1 * * *              root /var/minecraft/newlands/proxy/backup.sh
+55 */6 * * *            root /var/minecraft/newlands/proxy/auto-reboot.sh
 
-#55 1 * * *             root /var/minecraft/lobby/auto-reboot.sh
-15 2 * * *              root /var/minecraft/lobby/database-cleanup.sh
+#55 1 * * *             root /var/minecraft/newlands/lobby/auto-reboot.sh
+15 2 * * *              root /var/minecraft/newlands/lobby/database-cleanup.sh
 
-#55 2 * * *             root /var/minecraft/creative/auto-reboot.sh
-15 3 * * *              root /var/minecraft/creative/database-cleanup.sh
+#55 2 * * *             root /var/minecraft/newlands/creative/auto-reboot.sh
+15 3 * * *              root /var/minecraft/newlands/creative/database-cleanup.sh
 
-#55 3 * * *             root /var/minecraft/survival/auto-reboot.sh
-15 4 * * *              root /var/minecraft/survival/database-cleanup.sh
+#55 3 * * *             root /var/minecraft/newlands/survival/auto-reboot.sh
+15 4 * * *              root /var/minecraft/newlands/survival/database-cleanup.sh
 
-#55 4 * * *             root /var/minecraft/hardline/auto-reboot.sh
-#15 5 * * *             root /var/minecraft/hardline/database-cleanup.sh
+#55 4 * * *             root /var/minecraft/hardline/server/auto-reboot.sh
+#15 5 * * *             root /var/minecraft/hardline/server/database-cleanup.sh
 
-45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/bungeecord/build/libs/Geyser-BungeeCord.jar --output-document=/var/minecraft/proxy/pending-updates/Geyser.jar --quiet
-45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/bungee/build/libs/floodgate-bungee.jar --output-document=/var/minecraft/proxy/pending-updates/floodgate.jar --quiet
-45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/khavalon/pending-updates/floodgate.jar --quiet
-45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/survival/pending-updates/floodgate.jar --quiet
-45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/creative/pending-updates/floodgate.jar --quiet
-45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/lobby/pending-updates/floodgate.jar --quiet
+45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/bungeecord/build/libs/Geyser-BungeeCord.jar --output-document=/var/minecraft/newlands/proxy/pending-updates/Geyser.jar --quiet
+45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/bungee/build/libs/floodgate-bungee.jar --output-document=/var/minecraft/newlands/proxy/pending-updates/floodgate.jar --quiet
+45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/newlands/khavalon/pending-updates/floodgate.jar --quiet
+45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/newlands/survival/pending-updates/floodgate.jar --quiet
+45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/newlands/creative/pending-updates/floodgate.jar --quiet
+45 1 * * *              minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/newlands/lobby/pending-updates/floodgate.jar --quiet
 
-#45 1 * * *             minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/build/libs/Geyser-Spigot.jar --output-document=/var/minecraft/hardline/pending-updates/Geyser.jar --quiet
-#45 1 * * *             minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/hardline/pending-updates/floodgate.jar --quiet
+#45 1 * * *             minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/build/libs/Geyser-Spigot.jar --output-document=/var/minecraft/hardline/server/pending-updates/Geyser.jar --quiet
+#45 1 * * *             minecraft wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar --output-document=/var/minecraft/hardline/server/pending-updates/floodgate.jar --quiet
