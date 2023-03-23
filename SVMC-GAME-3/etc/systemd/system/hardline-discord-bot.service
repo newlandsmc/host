@@ -1,5 +1,6 @@
 [Unit]
 Description=Hardline Discord Bot
+After=network.target
 Documentation=
 
 Wants=network.target
@@ -19,8 +20,8 @@ PrivateDevices=true
 NoNewPrivileges=true
 PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
-ReadWriteDirectories=/var/minecraft/hardline-discord-bot
-WorkingDirectory=/var/minecraft/hardline-discord-bot
+ReadWriteDirectories=/var/minecraft/hardline/discord-bot
+WorkingDirectory=/var/minecraft/hardline/discord-bot
 
 ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms500M -Xmx500M -jar SVDiscord.jar'
 
