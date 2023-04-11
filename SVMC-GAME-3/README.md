@@ -45,21 +45,23 @@ Backup drive is mounted with: https://linuxconfig.org/how-to-add-new-disk-to-exi
 ## MariaDB Setup:
 
 ```
-CREATE DATABASE khavalon_aurelium;
-CREATE DATABASE khavalon_coreprotect;
-CREATE DATABASE khavalon_gpdata;
 CREATE DATABASE asthonia_aurelium;
 CREATE DATABASE asthonia_coreprotect;
 CREATE DATABASE asthonia_gpdata;
 CREATE DATABASE litebans;
 CREATE DATABASE luckperms;
+CREATE DATABASE premiumvanish;
+CREATE DATABASE nickname;
 CREATE DATABASE creative_plotsquared;
 CREATE DATABASE creative_coreprotect;
 CREATE DATABASE hardline_aurelium;
 CREATE DATABASE hardline_luckperms;
 CREATE DATABASE hardline_coreprotect;
-CREATE DATABASE premiumvanish;
-CREATE DATABASE nickname;
+CREATE DATABASE semivanilla_coreprotect;
+CREATE DATABASE semivanilla_gpdata;
+CREATE DATABASE semivanilla_luckperms;
+CREATE DATABASE semivanilla_nickname;
+CREATE DATABASE semivanilla_premiumvanish;
 CREATE USER 'aurelium'@localhost IDENTIFIED BY 'NHCwp2D6NU9Z8cX5';
 CREATE USER 'coreprotect'@localhost IDENTIFIED BY '3ZBwCESb6C65Rpda';
 CREATE USER 'litebans'@localhost IDENTIFIED BY 'TA6gFmSbUqj8WexX';
@@ -68,9 +70,6 @@ CREATE USER 'griefprevention'@localhost IDENTIFIED BY 'NYBXJw9K9PhbeZkT';
 CREATE USER 'plotsquared'@localhost IDENTIFIED BY 'Cy34cS4mWpdJ62X8';
 CREATE USER 'premiumvanish'@localhost IDENTIFIED BY 'p9td448Rmn46jY36';
 CREATE USER 'nickname'@localhost IDENTIFIED BY 'iE0vxIkXVlCe9Ue4';
-GRANT ALL PRIVILEGES ON khavalon_aurelium.* TO 'aurelium'@localhost;
-GRANT ALL PRIVILEGES ON khavalon_coreprotect.* TO 'coreprotect'@localhost;
-GRANT ALL PRIVILEGES ON khavalon_gpdata.* TO 'griefprevention'@localhost;
 GRANT ALL PRIVILEGES ON asthonia_aurelium.* TO 'aurelium'@localhost;
 GRANT ALL PRIVILEGES ON asthonia_coreprotect.* TO 'coreprotect'@localhost;
 GRANT ALL PRIVILEGES ON asthonia_gpdata.* TO 'griefprevention'@localhost;
@@ -83,5 +82,10 @@ GRANT ALL PRIVILEGES ON hardline_coreprotect.* TO 'coreprotect'@localhost;
 GRANT ALL PRIVILEGES ON hardline_luckperms.* TO 'luckperms'@localhost;
 GRANT ALL PRIVILEGES ON premiumvanish.* TO 'premiumvanish'@localhost;
 GRANT ALL PRIVILEGES ON nickname.* TO 'nickname'@localhost;
+GRANT ALL PRIVILEGES ON semivanilla_nickname.* TO 'nickname'@localhost;
+GRANT ALL PRIVILEGES ON semivanilla_gpdata.* TO 'griefprevention'@localhost;
+GRANT ALL PRIVILEGES ON semivanilla_coreprotect.* TO 'coreprotect'@localhost;
+GRANT ALL PRIVILEGES ON semivanilla_luckperms.* TO 'luckperms'@localhost;
+GRANT ALL PRIVILEGES ON semivanilla_premiumvanish.* TO 'premiumvanish'@localhost;
 FLUSH PRIVILEGES;
 ```
