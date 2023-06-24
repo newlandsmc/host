@@ -7,29 +7,35 @@ This is a collection of config files for all of our hosts. These need to be manu
 Ideally, this contains enough info to recreate any of our hosts should we ever need to.
 
 ## Domains:
-semivanilla.com:
+(GOOGLE) semivanilla.com:
 Record |  Type  | Value
 ------ | :----: | ------
-@      | A      | 135.148.121.47
+@      | A      | 69.129.212.212
 www    | CNAME  | @
-play   | A      | 147.135.3.152
-mc     | CNAME  | play.semivanilla.com
+play   | A      | 69.129.212.210 
+mc     | A      | 69.129.212.210 
+store  | CNAME  | semivanilla.tebex.io.
+
+(GOOGLE) newlandsmc.com:
+Record |  Type  | Value
+------ | :----: | ------
+@      | A      | 69.129.212.212
+www    | CNAME  | @
+play   | A      | 69.129.212.211 
+mc     | A      | 69.129.212.211 
 store  | CNAME  | f85d22dd.webstore.tebex.io.
 
-asthonia.com:
+(GOOGLE) hardlinesmp.com:
 Record |  Type  | Value
 ------ | :----: | ------
-@      | A      | 135.148.121.47
+@      | A      | 69.129.212.212
 www    | CNAME  | @
-play   | A      | 147.135.3.152
-mc     | CNMA   | play.asthonia.com
-store  | 301    | store.semivanilla.com
+play   | CNAME  | @
+mc     | CNAME  | @
+store  | CNAME  | hardlinesmp.tebex.io.
 
-khavalon.com:
+(CLOUDFLARE) superminecraftservers.com:
 Record |  Type  | Value
 ------ | :----: | ------
-@      | A      | 135.148.121.47
+@      | A      | 69.129.212.212
 www    | CNAME  | @
-play   | A      | 147.135.3.152
-mc     | CNMA   | play.khavalon.com
-store  | 301    | store.semivanilla.com
