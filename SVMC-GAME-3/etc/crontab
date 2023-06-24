@@ -13,16 +13,6 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-*/5 * * * *             root /var/minecraft/newlands/status-bot/external-status.sh
-*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer proxy
-*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer lobby
-*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer survival
-*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh updateServer creative
-*/2 * * * *             root /var/minecraft/newlands/status-bot/server-status.sh globalStatus null
-
-*/5 * * * *             root /var/minecraft/semivanilla/status-bot/external-status.sh
-*/2 * * * *             root /var/minecraft/semivanilla/status-bot/internal-status.sh
-
 00 1 * * *              root /var/minecraft/newlands/proxy/backup.sh
 55 */6 * * *            root /var/minecraft/newlands/proxy/auto-reboot.sh
 
