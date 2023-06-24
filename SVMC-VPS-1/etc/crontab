@@ -13,4 +13,4 @@ MAILTO=root
 # |  |  |  |  |
 # *  *  *  *  * user-name  command to be executed
 
-0 0 1 */3 *   root certbot renew
+0 0 1 * *   root certbot renew
