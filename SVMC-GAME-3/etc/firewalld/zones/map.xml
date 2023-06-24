@@ -3,5 +3,6 @@
   <port port="8080" protocol="tcp"/>
   <port port="8081" protocol="tcp"/>
   <port port="8082" protocol="tcp"/>
-  <source address="192.168.50.4"/>
+  <port port="8083" protocol="tcp"/>
+  <source address="69.129.212.212"/>
 </zone>
