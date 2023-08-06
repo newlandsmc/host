@@ -70,6 +70,7 @@ CREATE DATABASE semivanilla_gpdata2;
 CREATE DATABASE semivanilla_luckperms;
 CREATE DATABASE semivanilla_nickname;
 CREATE DATABASE semivanilla_premiumvanish;
+CREATE DATABASE semivanilla_discordsrv;
 CREATE USER 'aurelium'@localhost IDENTIFIED BY 'NHCwp2D6NU9Z8cX5';
 CREATE USER 'coreprotect'@localhost IDENTIFIED BY '3ZBwCESb6C65Rpda';
 CREATE USER 'litebans'@localhost IDENTIFIED BY 'TA6gFmSbUqj8WexX';
@@ -104,5 +105,6 @@ GRANT ALL PRIVILEGES ON semivanilla_gpdata2.* TO 'griefprevention'@localhost;
 GRANT ALL PRIVILEGES ON semivanilla_coreprotect2.* TO 'coreprotect'@localhost;
 GRANT ALL PRIVILEGES ON semivanilla_luckperms.* TO 'luckperms'@localhost;
 GRANT ALL PRIVILEGES ON semivanilla_premiumvanish.* TO 'premiumvanish'@localhost;
+GRANT ALL PRIVILEGES ON semivanilla_discordsrv.* TO 'discordsrv'@localhost;
 FLUSH PRIVILEGES;
 ```
