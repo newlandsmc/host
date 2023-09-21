@@ -25,7 +25,7 @@ WorkingDirectory=/var/minecraft/newlands/proxy
 
 ExecStartPre=/var/minecraft/newlands/proxy/install-updates.sh
 
-ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms500M -Xmx500M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15 -jar $(<version.txt)'
+ExecStart=/bin/bash -c '/usr/java/jdk-17.0.6+10-jre/bin/java -Xms250M -Xmx250M -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -XX:MaxInlineLevel=15 -jar $(<version.txt)'
 
 SyslogIdentifier=newlands-proxy
 
