@@ -14,7 +14,7 @@ mcrcon located at /var/minecraft/mcrcon
 
 Java is located at /usr/java/\<version\>
 
-Backup drive is mounted with: https://linuxconfig.org/how-to-add-new-disk-to-existing-linux-system
+Backup drive is mounted at /backups with: https://linuxconfig.org/how-to-add-new-disk-to-existing-linux-system
 
 ## Packages Installed:
 
